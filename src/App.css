@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.header-app {
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  background-color: black;
+  height: 100vh;
+  min-width: 100%;
+}
+
+.select {
+  background-color: black;
+  color: white;
+}
+
+.cards {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 15.33%;
+  margin: 7px;
+  cursor: pointer;
+  border: 1px solid #4a4848;
+  padding: 4px;
+  border-radius: 8px;
+  max-height:35vh;
+}
+
+.cards h2 {
+  margin-top: 0;
+}
+
+.cards p {
+  margin-bottom: 0;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  padding-top: 4px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.img-size {
+  aspect-ratio: 1;
+}
+
+.white {
+  color: #bcb8b8
+}
+
+.card-new {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidenav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 1;
+  width: 75vh;
+  background: #282c34;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.data-head {
+  color: black;
+  width: 62vh;
+  /* margin-right: 20px; */
+  display: flex;
+}
+
+.data-val {
+  color: black;
+  margin-left: 10px;
+}
+
+.details {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 15px;
+  padding: 10px;
+}
+
+input {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px 11px;
+  font-size: 12px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.category {
+  min-width: 22%;
+  font-size: 14px;
+  padding-left: 10px;
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+}
+
+.filter {
+  text-align: left;
+  display: flex;
+  gap: 5px;
+}
+
+.nav {
+  align-items: center;
+  gap: 10px;
+}
+.w-20{
+  width:20%;
+}
+::-webkit-scrollbar{ width :6px; }
