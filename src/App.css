@@ -80,6 +80,7 @@ img {
 .card-new {
   display: flex;
   flex-wrap: wrap;
+  width:100%;
 }
 
 .sidenav {

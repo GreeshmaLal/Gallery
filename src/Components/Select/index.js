@@ -34,7 +34,8 @@ const SelectDropdown = ({ selectedValue, options, setSortValue }) => {
         : isSelected
           ? '#282c34'
           : undefined,
-      zIndex: 1
+      zIndex: 1,border:"1px solid white",
+      borderColor:"white"
     }),
     menu: (base) => ({
       ...base,
