@@ -151,3 +151,6 @@ input {
   width:20%;
 }
 ::-webkit-scrollbar{ width :6px; }
+.w-65{
+  width:65%;
+}

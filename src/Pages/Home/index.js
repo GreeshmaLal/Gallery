@@ -40,10 +40,10 @@ const Home = () => {
               <div className="d-flex">
                 <Filter category={category} setCategoryFilter={setCategoryFilter}/>
 
-                <div className='card-new'>
+             {collectionList?.length ?   <div className='card-new'>
                     {collectionList?.map((item, index) => (
                         <Card key={index} title={item?.collectionName} image={item.image} item={item} />
-                    ))}</div>
+                    ))}</div>: <div className="white w-65">No items found</div>}
             </div>
         </div>
         </div>
